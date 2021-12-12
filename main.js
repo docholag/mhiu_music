@@ -127,7 +127,7 @@ const app = {
     const cdThumbAnimate = cdThumb.animate([
       { transform: 'rotate(360deg)' } //cho xoay 360 độ
     ],{
-      duration: 10000, //10 giây
+      duration: 1000000, //10 giây
       interation: Infinity //xoay vô hạn
     })
     cdThumbAnimate.pause()
